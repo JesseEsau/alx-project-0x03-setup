@@ -1,22 +1,12 @@
 import { ReactNode } from "react";
-import Footer from "./Footer";
 import Header from "./Header";
-import { LayoutProps } from "@/interface";
-
-export default function Layout({ children }: LayoutProps) {
-    return (
-        <div>
-            {/* Common layout markup */}
-            {children}
-        </div>
-    );
-}
+import Footer from "./Footer";
 
 interface LayoutProps {
     children: ReactNode;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout = ({ children }: LayoutProps) => {
     return (
         <>
             <Header />
