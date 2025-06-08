@@ -16,3 +16,7 @@ export interface ButtonProps {
     buttonBackgroundColor: string;
     action: () => void;
 }
+
+export interface LayoutProps {
+    children: ReactNode;
+}
