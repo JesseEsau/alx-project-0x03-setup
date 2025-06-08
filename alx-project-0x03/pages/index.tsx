@@ -19,6 +19,9 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-gray-800 mb-4">
         Welcome to Splash App!
       </h1>
+      <div>
+        <h1> Welcome to Splash App </h1>
+      </div>
       <p className="text-lg text-gray-600 mb-8">
         Your one-stop platform for everything AI you need. Start exploring by
         navigating to our features below.
